@@ -1,6 +1,6 @@
-/.pytest_cache
-/.venv
+__pycache__
+.pytest_cache
+.venv
 /DataPipelines.md
 /build
-/examples
 /giorgio.egg-info
