@@ -1,0 +1,6 @@
+/.pytest_cache
+/.venv
+/DataPipelines.md
+/build
+/examples
+/giorgio.egg-info

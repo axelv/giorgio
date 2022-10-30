@@ -1,0 +1,5 @@
+FROM python:3.10-buster
+COPY . /var/giorgio/
+RUN /usr/local/bin/pip install google-cloud-pubsub
+RUN /usr/local/bin/pip install -e /var/giorgio 
+ENTRYPOINT [ "/usr/local/bin/python", "-m","giorgio.workers.pubsub" ]
